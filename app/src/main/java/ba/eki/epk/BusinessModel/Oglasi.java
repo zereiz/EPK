@@ -1,4 +1,4 @@
-package ba.eki.epk.Model;
+package ba.eki.epk.BusinessModel;
 
 /**
  * Created by zoran.ereiz on 08.10.2015.

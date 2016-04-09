@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentTop="false"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/txtNaslov"
+        android:text="Naslov"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/Red"
+        android:layout_below="@+id/txtNaslov"
+        android:id="@+id/linija"/>
+
+</RelativeLayout>

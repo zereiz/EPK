@@ -1,4 +1,25 @@
 <resources>
     <string name="app_name">EPK</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Navigation Drawer Labels -->
+    <string-array name="nav_drawer_strings">
+        <item>Oglasi</item>
+        <item>Nadji oglas</item>
+        <item>Novi oglas</item>
+        <item>O EPK</item>
+        <item>O EKI</item>
+        <item>Kontakt</item>
+    </string-array>
+
+    <!-- Navigation drawer icons -->
+    <string-array name="nav_drawer_icons">
+        <item>@drawable/ic_newspaper</item>
+        <item>@drawable/ic_newspaper</item>
+        <item>@drawable/ic_newspaper</item>
+        <item>@drawable/ic_newspaper</item>
+        <item>@drawable/ic_newspaper</item>
+        <item>@drawable/ic_newspaper</item>
+    </string-array>
+
 </resources>
